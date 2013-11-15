@@ -1,0 +1,17 @@
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\ApplicationIcon.png
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\Background.png
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\OpenERPMultiPlatformApp.dll
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\OpenERPMultiPlatformApp.pdb
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\AppManifest.xaml
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\OpenERPMultiPlatformApp.xap
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\App.g.i.cs
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\MainPage.g.i.cs
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\cordovalib\CordovaView.g.i.cs
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\Plugins\UI\AudioRecorder.g.i.cs
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\Plugins\UI\ImageCapture.g.i.cs
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\Plugins\UI\NotificationBox.g.i.cs
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\Plugins\UI\VideoRecorder.g.i.cs
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\OpenERPMultiPlatformApp.g.resources
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\OpenERPMultiPlatformApp.dll
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\OpenERPMultiPlatformApp.pdb
+c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\XapCacheFile.xml
