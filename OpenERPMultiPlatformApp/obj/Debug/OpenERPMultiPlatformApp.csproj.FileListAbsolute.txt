@@ -15,3 +15,20 @@ c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp
 c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\OpenERPMultiPlatformApp.dll
 c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\OpenERPMultiPlatformApp.pdb
 c:\users\ali.amjad\documents\visual studio 2010\Projects\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\XapCacheFile.xml
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\ApplicationIcon.png
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\Background.png
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\OpenERPMultiPlatformApp.dll
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\OpenERPMultiPlatformApp.pdb
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\AppManifest.xaml
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\Bin\Debug\OpenERPMultiPlatformApp.xap
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\App.g.i.cs
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\MainPage.g.i.cs
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\cordovalib\CordovaView.g.i.cs
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\Plugins\UI\AudioRecorder.g.i.cs
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\Plugins\UI\ImageCapture.g.i.cs
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\Plugins\UI\NotificationBox.g.i.cs
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\Plugins\UI\VideoRecorder.g.i.cs
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\OpenERPMultiPlatformApp.g.resources
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\OpenERPMultiPlatformApp.dll
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\OpenERPMultiPlatformApp.pdb
+E:\eboreApps\GitRepos\OpenERPMultiPlatformApp\OpenERPMultiPlatformApp\obj\Debug\XapCacheFile.xml

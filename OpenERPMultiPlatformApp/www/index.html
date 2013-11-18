@@ -25,38 +25,77 @@
 
         <link rel="stylesheet" type="text/css" href="css/index.css" />        
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.3.2.min.css" />
+        <link rel="stylesheet" href="css/jquery.signaturepad.css">
+        <!--[if lt IE 9]><script src="css/flashcanvas.js"></script><![endif]-->
 
         <title>OpenERP App</title>
         
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/ajax.js"></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.signaturepad.js"></script>
+        <script type="text/javascript" src="js/json2.min.js"></script>
 
         <script type="text/javascript">
             app.initialize();
+
+            (function (window) {
+                var $canvas,
+                    onResize = function (event) {
+                        $canvas.attr({
+                            height: window.innerHeight,
+                            width: window.innerWidth
+                        });
+                    };
+
+                $(document).ready(function () {
+                    
+                    getDatabases();
+
+                    $canvas = $('canvas');
+                    window.addEventListener('orientationchange', onResize, false);
+                    window.addEventListener('resize', onResize, false);
+                    onResize();
+
+                    $('form').signaturePad({
+                        drawOnly: true,
+                        defaultAction: 'drawIt',
+                        validateFields: false,
+                        lineWidth: 0,
+                        output: null,
+                        sigNav: null,
+                        name: null,
+                        typed: null,
+                        clear: 'input[type=reset]',
+                        typeIt: null,
+                        drawIt: null,
+                        typeItDesc: null,
+                        drawItDesc: null
+                    });
+                });
+            } (this));
+
         </script>
 
     </head>
     <body>
         
-        <!-- Start of first page -->
+        <!-- Start of Login page -->
         <div data-role="page" id="login">
 
 	        <div data-role="header" data-theme="b">
-	            <h1>Login</h1>
+	            <h1>OpenERP Login</h1>
 	        </div><!-- /header -->
 
             <div data-role="content">
             
-                <label for="text-6">ERP Login</label>
-
 <!--                <input type="text" data-clear-btn="true" name="text-6" id="txtDatabase" value="" placeholder="Database">
 -->                
                 <div data-role="fieldcontain">
-                    <label for="select-native-1">Database:</label>
-                    <select name="select-native-1" id="select-native-1">
-                        <option value="2">Stech_DB</option>
+                    <label for="ddERPDatabases">Database:</label>
+                    <select name="ddERPDatabases" id="ddERPDatabases">
                     </select>
                 </div>
 
@@ -72,14 +111,15 @@
 
             
                 <div align="right">
-                    <a href="#opencases" data-role="button" data-mini="true" data-inline="true" data-icon="arrow-r" data-theme="b">Login</a>
+                    <label id="errorMsg" for="text-6"></label>
+                    <a href="#opencases" id="btnLogin" data-role="button" data-mini="true" data-inline="true" data-icon="arrow-r" data-theme="b">Login</a>
                 </div>
-
+                
             </div><!-- /content -->
 	       
         </div><!-- /page -->
 
-        <!-- Start of second page -->
+        <!-- Start of open cases page -->
         <div data-role="page" id="opencases" data-add-back-btn="true">
 
 	        <div data-role="header" data-theme="b">
@@ -89,7 +129,29 @@
 	        <div data-role="content">
 		         <p>Open Cases content goes here.</p>
 	        </div><!-- /content -->
+            
+            <div align="center">
+                <a href="#signature" id="btnSign" data-role="button" data-mini="true" data-inline="true" data-icon="arrow-r" data-theme="b">Sign</a>
+            </div>
 
+        </div><!-- /page -->
+        
+         <!-- Start of sign page -->
+        <div data-role="page" id="signature" data-add-back-btn="true">
+
+	        <div data-role="header" data-theme="b">
+		        <h1>Customer Signature</h1>
+	        </div><!-- /header -->
+            
+            <input type="hidden" name="output" class="output">
+
+            <form method="POST" action="">
+		            <canvas class="pad"></canvas>
+		            <fieldset>
+			            <input type="reset" value="clear" />
+		            </fieldset>
+	            </form>
+            
         </div><!-- /page -->
 
     </body>
